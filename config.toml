@@ -23,3 +23,9 @@ pygmentsUseClasses = true
   title = "Journal de développement"
   sortBy = "date"
   sortOrder = "desc"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  term = ["HTML", "RSS"]
