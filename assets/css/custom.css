@@ -1,0 +1,9 @@
+.site-header .site-title {
+  font-size: 2rem;   /* plus petit */
+  margin: 0.5rem 0;  /* réduit l’espace */
+}
+
+.hero {
+  padding: 1rem;     /* moins de marge dans le bandeau */
+  min-height: auto;  /* supprime la hauteur énorme */
+}

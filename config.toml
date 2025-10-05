@@ -1,0 +1,25 @@
+baseURL = "https://thlg057.github.io/"
+languageCode = "fr-fr"
+title = "Premiers pas: Développement Thomson MO5"
+theme = "PaperMod"
+enableRobotsTXT = true
+canonifyURLs = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  description = "Un blog rétro-computing consacré au développement sur le Thomson MO5"
+  #author = "Thierry Le Got"
+  ShowAuthor = false
+  hideFooter = true
+  ShowDate = false
+  copyright = "© 2025 - Projet Thomson MO5"
+  #dateFormat = "02/01/2006"
+
+[params.sections.days]
+  title = "Journal de développement"
+  sortBy = "date"
+  sortOrder = "desc"
