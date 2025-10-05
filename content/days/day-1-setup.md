@@ -95,6 +95,7 @@ Pour travailler confortablement, j’ai installé l’extension **Remote - SSH**
 Elle me permet de me connecter directement à mon Raspberry Pi et de lancer les commandes de compilation sans quitter mon éditeur.
 
 Un autre avantage de Visual Studio Code, c’est la possibilité d’y activer des agents de développement comme GitHub Copilot ou d’autres assistants IA.
+
 Pour un projet aussi atypique que le développement sur Thomson MO5, ces outils modernes peuvent s’avérer précieux, que ce soit pour générer du code C, comprendre d’anciens concepts, ou m’aider à optimiser des routines pour le processeur 6809.
 
 ---
