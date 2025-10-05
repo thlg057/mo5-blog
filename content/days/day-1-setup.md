@@ -7,7 +7,7 @@ summary: "Mise en place d’un environnement minimaliste pour développer sur Th
 
 Mon laptop est un modeste **Asus sous Windows** (Core i3, 8 Go de mémoire).  
 J’ai **Visual Studio Code** d’installé, ainsi que **SourceTree** pour la gestion du code.  
-
+ 
 Pour un projet précédent, j’avais installé **MSYS2** ([msys2.org](https://www.msys2.org/)) afin de développer un interpréteur BASIC en C.  
 Je pensais qu’avec tout ça, la mise en place d’un environnement de développement pour le **Thomson MO5** serait simple… mais pas tout à fait 😅
 
