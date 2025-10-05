@@ -5,6 +5,9 @@ draft: false
 ---
 
 Cet été, j’ai lu le livre de **Bill Gates, *Source Code***, ainsi qu’une revue consacrée aux ordinateurs rétro de ma jeunesse.  
+
+![source code et Retro Bit](/assets/sourcecodeetretrobit.jpg "Source code & Retro Bit")
+
 Ces lectures m’ont inspiré, et j’ai voulu me replonger dans le contexte de l’époque en développant un **interpréteur BASIC inspiré de l’Altair**.
 
 Mon objectif : obtenir la plus faible empreinte mémoire et processeur possible.  
@@ -30,11 +33,13 @@ Je me suis donc mis en quête d’en acheter un sur Le Bon Coin… mais :
 Puis je suis tombé sur **une annonce pour un Thomson MO5** : vrai clavier (pas clavier-gomme), lecteur de cassettes, crayon optique, le tout pour **80 € à 30 minutes de chez moi**.  
 **Banco !** 🎉 C’est ainsi qu’est née cette aventure.
 
+![MO5](/assets/mo5.jpg "MO5")
+
 ---
 
 ### Pourquoi le MO5 ?
 
-Les ressources en ligne sont plus limitées que pour le Commodore, mais avec l’émergence de l’IA, je me suis dit qu’elle pouvait devenir **un formidable atout** pour m’aider à développer.
+Les ressources en ligne sont plus limitées que pour le Commodore, mais avec l’émergence de l’IA, je me suis dit qu’elle pouvait devenir **un formidable atout** pour m’aider à développer (je compte sur le vibe coding, peut être un peu trop... 😄).
 
 Je sais aussi que **plus une IA a de contexte, plus elle est précise et efficace**.  
 Mon projet est donc double :
