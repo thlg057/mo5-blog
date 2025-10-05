@@ -21,7 +21,7 @@ Elle m’a aidé à :
 
 ---
 
-### Vers une vraie machine : le Thomson MO5
+## Vers une vraie machine : le Thomson MO5
 
 Fort de cette expérience, j’ai voulu aller plus loin : **développer une application pour un ordinateur de l’époque**.
 
@@ -37,7 +37,7 @@ Puis je suis tombé sur **une annonce pour un Thomson MO5** : vrai clavier (pas 
 
 ---
 
-### Pourquoi le MO5 ?
+## Pourquoi le MO5 ?
 
 Les ressources en ligne sont plus limitées que pour le Commodore, mais avec l’émergence de l’IA, je me suis dit qu’elle pouvait devenir **un formidable atout** pour m’aider à développer (je compte sur le vibe coding, peut être un peu trop... 😄).
 
@@ -50,3 +50,4 @@ Mon projet est donc double :
 
 Bref, une aventure à la croisée du passé et du futur :  
 **redonner vie à une machine de 1984 grâce aux outils de 2025.** 🚀
+## Mon aventure commence ici...
