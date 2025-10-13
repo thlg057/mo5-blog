@@ -1,11 +1,8 @@
 ---
-
 title: "Mon kit MO5 prêt à programmer"
-
 date: 2025-10-04
-
+draft: false
 summary: "À la conquête du MO5 ! Mon projet de rétrocomputing commence avec l’achat d’un ordinateur 8 bits et ses accessoires."
-
 ---
 
 N'ayant pas réussi à trouver un Commodore 64 à un prix abordable, j'ai élargi ma recherche à d'autres machines 8 bits des années 80.  

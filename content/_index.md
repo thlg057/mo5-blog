@@ -4,7 +4,7 @@ date: 2025-10-05
 draft: false
 ---
 
-Cet été, j’ai lu le livre de **Bill Gates, *Source Code***, ainsi qu’une revue consacrée aux ordinateurs rétro de ma jeunesse.  
+Cet été (2025), j’ai lu le livre de **Bill Gates, *Source Code***, ainsi qu’une revue consacrée aux ordinateurs rétro de ma jeunesse.  
 
 ![source code et Retro Bit](/assets/sourcecodeetretrobit.jpg "Source code & Retro Bit")
 
@@ -19,9 +19,11 @@ Elle m’a aidé à :
 - redéfinir les fonctions de base (`printf`, `strcpy`, etc.) pour éviter les bibliothèques standard,    
 - m'aider à développer certaines parties plus complexes.
 
+[Le source de mon altair-basic](https://github.com/thlg057/altair-basic)
+
 ---
 
-## Vers une vraie machine : le Thomson MO5
+## Vers une vraie machine 8 bits
 
 Fort de cette expérience, j’ai voulu aller plus loin : **développer une application pour un ordinateur de l’époque**.
 
@@ -37,9 +39,9 @@ Puis je suis tombé sur **une annonce pour un Thomson MO5** : vrai clavier (pas 
 
 ---
 
-## Pourquoi le MO5 ?
+## Le MO5, vraiment ?
 
-Les ressources en ligne sont plus limitées que pour le Commodore, mais avec l’émergence de l’IA, je me suis dit qu’elle pouvait devenir **un formidable atout** pour m’aider à développer (je compte sur le vibe coding, peut être un peu trop... 😄).
+Les ressources en ligne du MO5 sont plus limitées que pour le Commodore, mais avec l’émergence de l’IA, je me suis dit qu’elle pouvait devenir **un formidable atout** pour m’aider à développer (je compte sur le vibe coding, peut être un peu trop... 😄).
 
 Je sais aussi que **plus une IA a de contexte, plus elle est précise et efficace**.  
 Mon projet est donc double :
