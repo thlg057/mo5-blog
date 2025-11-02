@@ -8,5 +8,9 @@
 
 Un blog consacré au rétro-computing et au développement sur le \*\*Thomson MO5\*\*.
 
+Pour lancer le serveur de développement :
+```
+hugo server -D
+```
 
-
+Puis visiter la page  http://localhost:64545/mo5-blog/
