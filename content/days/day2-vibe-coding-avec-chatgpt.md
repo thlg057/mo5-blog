@@ -6,14 +6,12 @@ description: "Retour sur ma deuxième journée de vibe coding : expérimentation
 draft: false
 ---
 
-## Day 2: Vibe coding avec ChatGPT
-
 Pour mon premier jour, j’ai choisi de commencer avec **ChatGPT**.  
 Certes, c’est une IA généraliste et non une IA spécialisée dans le développement, mais je me suis dit que ce serait un bon point de départ.
 
 ---
 
-### Mon objectif
+## Mon objectif
 
 J’avais une idée assez précise : **développer un petit jeu en C**.  
 J’avais aussi lu que pour tout ce qui touche au graphisme, il valait mieux utiliser de l’assembleur.  
@@ -23,19 +21,20 @@ Je voulais ensuite **tester le programme dans un émulateur**.
 
 ---
 
-### Les premiers essais
+## Les premiers essais
 
 J’ai commencé par expliquer mon contexte et mes besoins, puis demandé des références utiles.  
 ChatGPT m’a bien listé plusieurs blogs et outils… mais la plupart **n’existaient plus** : dépôts supprimés, liens déplacés, outils inconnus ou introuvables.
 
 Côté code, les choses se sont compliquées :
-- Les premières propositions ne **compilaient pas** : options obsolètes, erreurs de syntaxe, références à des bibliothèques vieillissantes comme `stdio.h` avec `putchar`.
+- Les premières propositions **ne compilaient pas**, notamment à cause d’options obsolètes du compilateur.
+- ChatGPT me proposait du code utilisant `stdio.h` et `putchar`, alors que **je ne pouvais pas utiliser de bibliothèques externes** dans ce contexte.
 - Après plusieurs allers-retours, j’ai enfin obtenu **un code qui compilait**.
 - Restait à le **faire tourner dans l’émulateur**…
 
 ---
 
-### La galère du `.k7`
+## La galère du `.k7`
 
 ChatGPT s’est mis en tête de générer un fichier `.k7` en utilisant l’option `-k7` de `cmoc` — qui **n’existe pas (ou plus)**.  
 Ensuite, il m’a orienté vers **buildcass** (repo disparu : [columboo/buildcass](https://github.com/columboo/buildcass.git)) puis **lwbin2tap**, que je n’ai jamais trouvé.
@@ -47,7 +46,7 @@ J’ai tenté de charger directement le `.bin` dans dcmoto, mais rien n’y fais
 
 ---
 
-### Un espoir… puis encore une impasse
+## Un espoir… puis encore une impasse
 
 Après quelques recherches, je suis tombé sur le dépôt d’**Olivier P** :  
 👉 [OlivierP-To8/BootFloppyDisk](https://github.com/OlivierP-To8/BootFloppyDisk)
@@ -57,7 +56,7 @@ Mais là encore, **le programme n’a pas fonctionné**.
 
 ---
 
-### Bilan de la journée
+## Bilan de la journée
 
 Un peu frustrant, je l’avoue.  
 Tout semblait prometteur : les échanges avec ChatGPT étaient intéressants, les idées nombreuses, les exemples complets (jusqu’à un mini-jeu !)… mais **rien de réellement exécutable** au final.
