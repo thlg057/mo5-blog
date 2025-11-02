@@ -36,7 +36,7 @@ Côté code, les choses se sont compliquées :
 
 ## La galère du `.k7`
 
-ChatGPT s’est mis en tête de générer un fichier `.k7` en utilisant l’option `-k7` de `cmoc` — qui **n’existe pas (ou plus)**.  
+ChatGPT s’est mis en tête de générer un fichier `.k7` en utilisant l’option `-k7` de `cmoc`, qui **n’existe pas (ou plus)**.  
 Ensuite, il m’a orienté vers **buildcass** (repo disparu : [columboo/buildcass](https://github.com/columboo/buildcass.git)) puis **lwbin2tap**, que je n’ai jamais trouvé.
 
 À défaut, il m’a proposé d’écrire un **script Python** pour convertir un `.bin` en `.k7`.  
