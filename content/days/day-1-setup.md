@@ -2,6 +2,7 @@
 title: "Day 1 – Configuration de l’environnement de développement"
 date: 2025-10-04
 draft: false
+weight: 2
 summary: "Mise en place d’un environnement minimaliste pour développer sur Thomson MO5, en combinant Raspberry Pi, outils du 6809 (CMOC, LWTOOLS) et un soupçon de modernité avec Visual Studio Code."
 ---
 
