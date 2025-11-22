@@ -116,7 +116,7 @@ Mais pas d’inquiétude : ce sont des **références historiques fiables** dans
 
 ### 🖥️ Windows :
 - Visual Studio Code + extension **Remote - SSH**
-- SourceTree (je préfère éviter la ligne de commande Git 😄)
+- SourceTree (j'aime bien manipuler Git depuis un environnement graphique, c'est mon coté "Windows" 😄)
 
 ### 🍓 Raspberry Pi 4 (Raspbian) :
 - CMOC  

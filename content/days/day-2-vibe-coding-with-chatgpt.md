@@ -2,7 +2,7 @@
 title: "Day 2: Vibe coding avec ChatGPT"
 date: 2025-11-02
 tags: ["AI", "ChatGPT", "Coding", "Retro", "C", "Assembleur"]
-description: "Retour sur ma deuxième journée de vibe coding : expérimentation avec ChatGPT pour coder un petit jeu rétro."
+description: "Retour sur ma première journée de vibe coding : expérimentation avec ChatGPT pour coder un petit jeu rétro."
 draft: false
 ---
 

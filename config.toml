@@ -21,8 +21,8 @@ pygmentsUseClasses = true
 
 [params.sections.days]
   title = "Journal de développement"
-  sortBy = "date"
-  sortOrder = "desc"
+  sortBy = "title"
+  sortOrder = "asc"
 
 [outputs]
   home = ["HTML", "RSS"]
