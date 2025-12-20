@@ -150,11 +150,7 @@ VS Code Remote-SSH utilise :
 
 OpenMediaVault désactive ça par défaut.
 
-⚠️ Important :
-- ne pas modifier `sshd_config` à la main
-- OMV peut écraser les changements
-
-👉 Il faut passer par l’interface OMV.
+⚠️ Important : il faut ne pas modifier `sshd_config` à la main, OMV pourrait écraser vos changements. Il faut passer par l’interface OMV.
 
 ### La solution (propre)
 
