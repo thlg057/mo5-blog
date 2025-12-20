@@ -1,0 +1,56 @@
+---
+title: "From AI to the Thomson MO5: My Retro-Computing Adventure"
+date: 2025-10-05
+draft: false
+---
+
+This summer (2025), I read **Bill Gates' book, *Source Code***, as well as a magazine dedicated to the retro computers of my youth.
+
+![source code and Retro Bit](/assets/sourcecodeetretrobit.jpg "Source code & Retro Bit")
+
+These readings inspired me, and I wanted to dive back into the era by developing a **BASIC interpreter inspired by the Altair**.
+
+My goal: achieve the lowest possible memory and CPU footprint.
+Not being entirely masochistic 😄, I didn't start from assembly code, but rather from a **C program**, avoiding standard libraries to keep the memory footprint minimal.
+
+For this project, I relied on the **ChatGPT AI**, via the web.
+It helped me to:
+- think through the code architecture (roles and responsibilities),
+- redefine basic functions (`printf`, `strcpy`, etc.) to avoid standard libraries,
+- assist in developing some of the more complex parts.
+
+[The source code for my altair-basic](https://github.com/thlg057/altair-basic)
+
+---
+
+## Towards a Real 8-Bit Machine
+
+Emboldened by this experience, I wanted to take it further: **develop an application for a period computer**.
+
+On various forums, I had seen enthusiasts coding in C for the **Commodore 64**, using a Windows development setup.
+So I went on a quest to buy one on Le Bon Coin… but:
+- the prices were insane,
+- it was impossible to verify proper functioning remotely (no photos of it powered on, screen connected, etc.).
+
+Then I stumbled upon **an ad for a Thomson MO5**: real keyboard (not rubber keys), cassette drive, light pen, all for **€80, just 30 minutes away**.
+**Sold!** 🎉 And that's how this adventure began.
+
+![MO5](/assets/mo5.jpg "MO5")
+
+---
+
+## The MO5, Really?
+
+Online resources for the MO5 are more limited than for the Commodore, but with the rise of AI, I figured it could become **a tremendous asset** to help me develop (I'm counting on some serious coding vibes, maybe a bit too much… 😄).
+
+I also know that **the more context an AI has, the more accurate and effective it becomes**.
+So my project has a dual goal:
+1. Create an **application for the Thomson MO5**, with the help of AI.
+2. Provide **documentation and technical context** that AIs can use, allowing other budding developers to dive in as well.
+
+---
+
+In short, an adventure at the crossroads of past and future:
+**bringing a 1984 machine back to life using 2025 tools.** 🚀
+## My adventure starts here...
+
