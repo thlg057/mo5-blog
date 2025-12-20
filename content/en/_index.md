@@ -50,6 +50,9 @@ So my project has a dual goal:
 1. Create an **application for the Thomson MO5**, with the help of AI.
 2. Provide **documentation and technical context** that AIs can use, allowing other budding developers to dive in as well.
 
+For readers who are not familiar with French computing history: in the early 1980s, France launched a national program to equip schools with computers, called the "Plan Informatique pour Tous." Among the chosen machines were the **Thomson MO5** and **TO7**, which became widely known to French students at the time. Outside France, these computers are much less known, so this project may feel like discovering a forgotten piece of computing history 😄.
+
+
 ---
 
 In short, an adventure at the crossroads of past and future:

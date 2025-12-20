@@ -49,6 +49,9 @@ Mon projet est donc double :
 1. Créer une **application pour le Thomson MO5**, avec l’aide de l’IA.  
 2. Fournir une **documentation et un contexte technique** exploitables par les IA, afin de permettre à d’autres développeurs en herbe de s’y mettre à leur tour.
 
+Pour les lecteurs qui ne connaissent pas l'histoire de l'informatique en France : au début des années 1980, la France a lancé un programme national pour équiper les écoles en ordinateurs, appelé le « Plan Informatique pour Tous ». Parmi les machines choisies figuraient le **Thomson MO5** et le **TO7**, qui sont ainsi devenus très connus des élèves français de l'époque. En dehors de la France, ces ordinateurs sont beaucoup moins connus, donc ce projet peut donner l'impression de redécouvrir un morceau oublié de l'histoire de l'informatique 😄.
+
+
 ---
 
 Bref, une aventure à la croisée du passé et du futur :  
