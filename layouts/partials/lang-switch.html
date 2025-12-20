@@ -1,0 +1,11 @@
+{{- if .IsTranslated }}
+<div class="lang-switch">
+  {{- range .Translations }}
+    <a href="{{ .Permalink }}" class="lang-link" title="{{ .Language.LanguageName }}">
+      {{- if eq .Lang "en" }}🇬🇧{{ else if eq .Lang "fr" }}🇫🇷{{ end }}
+      {{ .Language.LanguageName }}
+    </a>
+  {{- end }}
+</div>
+{{- end }}
+
