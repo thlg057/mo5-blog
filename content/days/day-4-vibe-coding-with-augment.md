@@ -7,8 +7,6 @@ draft: false
 weight: 5
 ---
 
-## Day 4 : Vibe coding avec Augment
-
 Dans le cadre de mon boulot, j’ai eu l’occasion de tester **Augment**.
 Lors de ces tests professionnels, je l’avais trouvé *très* pertinent, presque “proactif”.
 Par proactif, j’entends : non seulement répondre à la demande, mais aussi **anticiper des problèmes non formulés**, proposer des solutions alternatives, attirer l’attention sur des points critiques… bref, vous voyez l’idée.

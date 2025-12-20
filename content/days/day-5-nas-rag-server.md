@@ -7,7 +7,6 @@ draft: false
 weight: 6
 ---
 
-## Day 5 – Un NAS maison pour hoster mon RAG server
 
 L’objectif de ce **day 5**, c’était de résoudre un problème assez simple sur le papier, mais bloquant dans la pratique :  **où hoster localement mon RAG server dédié au MO5**.
 
