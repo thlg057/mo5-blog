@@ -1,5 +1,6 @@
 baseURL = "https://thlg057.github.io/mo5-blog/"
 defaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = false
 theme = "PaperMod"
 enableRobotsTXT = true
 canonifyURLs = true
@@ -22,6 +23,7 @@ pygmentsUseClasses = true
     languageName = "Français"
     weight = 1
     title = "Premiers pas: Développement Thomson MO5"
+    contentDir = "content/fr"
     [languages.fr.params]
       description = "Un blog rétro-computing consacré au développement sur le Thomson MO5"
     [languages.fr.params.sections.days]
@@ -34,10 +36,11 @@ pygmentsUseClasses = true
     languageName = "English"
     weight = 2
     title = "Thomson MO5 Development: First Steps"
+    contentDir = "content/en"
     [languages.en.params]
       description = "A retro-computing blog dedicated to development on the Thomson MO5"
     [languages.en.params.sections.days]
-      title = "Development Journal"
+      title = "Development diary"
       sortBy = "title"
       sortOrder = "asc"
 

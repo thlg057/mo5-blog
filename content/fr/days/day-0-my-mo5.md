@@ -3,6 +3,7 @@ title: "Mon kit MO5 prêt à programmer"
 date: 2025-10-04
 draft: false
 weight: 1
+translationKey: "day-0"
 summary: "À la conquête du MO5 ! Mon projet de rétrocomputing commence avec l’achat d’un ordinateur 8 bits et ses accessoires."
 ---
 

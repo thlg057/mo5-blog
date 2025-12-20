@@ -5,6 +5,7 @@ tags: ["AI", "Copilot", "MO5", "Assembleur", "Retro", "Wibe Coding"]
 description: "Deuxième jour de vibe coding : cette fois avec Copilot, en partant du dépôt d’Olivier P pour générer une image MO5 et tenter un premier input clavier."
 draft: false
 weight: 4
+translationKey: "day-3"
 ---
 
 Pour cette séance de vibe coding, j’ai décidé de tester **Copilot Pro**, en profitant des quelques **jours d’essai gratuit**.

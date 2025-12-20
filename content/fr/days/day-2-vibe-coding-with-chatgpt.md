@@ -5,6 +5,7 @@ tags: ["AI", "ChatGPT", "Coding", "Retro", "C", "Assembleur"]
 description: "Retour sur ma première journée de vibe coding : expérimentation avec ChatGPT pour coder un petit jeu rétro."
 draft: false
 weight: 3
+translationKey: "day-2"
 ---
 
 Pour mon premier jour, j’ai choisi de commencer avec **ChatGPT**.  

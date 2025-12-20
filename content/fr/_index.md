@@ -2,6 +2,7 @@
 title: "De l'IA au Thomson MO5 : mon aventure rétro-computing"
 date: 2025-10-05
 draft: false
+translationKey: "index-1"
 ---
 
 Cet été (2025), j’ai lu le livre de **Bill Gates, *Source Code***, ainsi qu’une revue consacrée aux ordinateurs rétro de ma jeunesse.  

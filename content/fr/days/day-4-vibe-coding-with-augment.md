@@ -5,6 +5,7 @@ tags: ["AI", "Augment", "MO5", "Assembleur", "Retro", "Wibe Coding"]
 description: "Quatrième jour de vibe coding : cette fois avec Augment, un coding agent étonnamment proactif qui a enfin résolu mon problème d’I/O sur MO5."
 draft: false
 weight: 5
+translationKey: "day-4"
 ---
 
 Dans le cadre de mon boulot, j’ai eu l’occasion de tester **Augment**.

@@ -5,6 +5,7 @@ tags: ["AI", "nas", "openmediavault", "raspberry pi"]
 description: "Cinquième jour de vibe coding : comment hoster localement mon serveur RAG dédié au MO5."
 draft: false
 weight: 6
+translationKey: "day-5"
 ---
 
 
