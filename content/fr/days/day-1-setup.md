@@ -46,6 +46,25 @@ sudo apt install build-essential bison flex git vim nano
 
 ---
 
+## Installation de LWTOOLS
+
+Téléchargement :
+
+```bash
+wget http://www.lwtools.ca/releases/lwtools/lwtools-4.24.tar.gz
+tar -xzf lwtools-4.24.tar.gz
+cd lwtools-4.24
+```
+
+Compilation et installation :
+
+```bash
+make
+sudo make install
+```
+
+---
+
 ## Installation de CMOC
 
 Téléchargement :
@@ -68,25 +87,6 @@ Vérification :
 
 ```bash
 cmoc --version
-```
-
----
-
-## Installation de LWTOOLS
-
-Téléchargement :
-
-```bash
-wget http://www.lwtools.ca/releases/lwtools/lwtools-4.24.tar.gz
-tar -xzf lwtools-4.24.tar.gz
-cd lwtools-4.24
-```
-
-Compilation et installation :
-
-```bash
-make
-sudo make install
 ```
 
 ---
