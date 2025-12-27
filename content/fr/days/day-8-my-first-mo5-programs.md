@@ -4,7 +4,7 @@ date: 2025-12-27
 tags: ["AI", "MO5", "Assembleur", "Retro"]
 description: "Huitième jour de vibe coding : J'ai un vrai programme (enfin sample) qui marche 😢"
 draft: false
-weight: 8
+weight: 9
 translationKey: "day-8"
 ---
 
