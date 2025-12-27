@@ -227,3 +227,6 @@ With modern development tools, these kinds of reflexes are not natural.
 On a daily basis, I mostly develop .NET microservices, where code readability is the priority and memory footprint is rarely a concern.
 Here, it is a completely different world.
 But going back to fundamentals, with strong and explicit constraints, often does a lot of good 😉.
+
+The code associated with this article is available here:  
+https://github.com/thlg057/mo5-tuto

@@ -226,3 +226,6 @@ Avec les outils de développement modernes, ce genre de réflexes n’est pas na
 Au quotidien, je développe plutôt des microservices en .NET, où la priorité est la lisibilité du code et où l’on se soucie assez peu de l’empreinte mémoire.
 Ici, c’est un tout autre monde.
 Mais revenir aux fondamentaux, à des contraintes fortes et explicites, ça fait souvent beaucoup de bien 😉.
+
+Le code associé à cet article est disponible ici :  
+https://github.com/thlg057/mo5-tuto
