@@ -9,7 +9,7 @@ pygmentsUseClasses = true
 googleAnalytics = "G-WRQSQ5Y81F"
 
 [pagination]
-  pagerSize = 10
+  pagerSize = 20
 
 [params]
   ShowAuthor = false
@@ -29,8 +29,8 @@ googleAnalytics = "G-WRQSQ5Y81F"
       description = "Un blog rétro-computing consacré au développement sur le Thomson MO5"
     [languages.fr.params.sections.days]
       title = "Journal de développement"
-      sortBy = "title"
-      sortOrder = "asc"
+      sortBy = "weight"
+      sortOrder = "desc"
 
   [languages.en]
     languageCode = "en-us"
@@ -42,8 +42,8 @@ googleAnalytics = "G-WRQSQ5Y81F"
       description = "A retro-computing blog dedicated to development on the Thomson MO5"
     [languages.en.params.sections.days]
       title = "Development diary"
-      sortBy = "title"
-      sortOrder = "asc"
+      sortBy = "weight"
+      sortOrder = "desc"
 
 [outputs]
   home = ["HTML", "RSS"]

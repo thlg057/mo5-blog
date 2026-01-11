@@ -1,4 +1,3 @@
-
 ---
 title: "Day 10 – Fine tuning du RAG server"
 date: 2026-01-09
