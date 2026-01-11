@@ -14,8 +14,7 @@ Dans la continuité de l’[épisode précédent](/mo5-blog/days/day-6-rag-serve
 L’objectif était double :
 
 - rendre le serveur accessible depuis l’extérieur
-- permettre aux *coding agents* (Copilot, Augment, etc.) d’avoir un **contexte précis** pour aider au développement sur le MO5  
-  (le projet est décrit ici : https://retrocomputing-ai.cloud/)
+- permettre aux *coding agents* (Copilot, Augment, etc.) d’avoir un **contexte précis** pour aider au développement sur le MO5 (le projet est décrit ici : https://retrocomputing-ai.cloud/)
 
 ---
 
@@ -65,7 +64,7 @@ Après comparaison des prix et des configurations, je suis parti sur :
 Ce n’est pas une grosse config, mais ça devrait être suffisant pour mon usage.  
 Bonus appréciable : **le nom de domaine offert**, parfait pour donner une vraie URL au projet.
 
-![Hostinger](/assets/hostinger.jpg "Hostinger hosting")
+![Hostinger](/assets/hostinger.png "Hostinger hosting")
 
 ---
 
