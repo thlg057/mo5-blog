@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - feature/blog
+  workflow_dispatch:
 
 permissions:
   contents: write
