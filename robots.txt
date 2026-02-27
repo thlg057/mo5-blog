@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://thlg057.github.io/mo5-blog/sitemap.xml
