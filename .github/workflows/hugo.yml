@@ -16,24 +16,26 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4 # Update vers v4 (plus stable)
         with:
-          submodules: true
+          submodules: recursive # Assure que les thèmes sont bien récupérés
           fetch-depth: 0
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3 # Update vers v3
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.151.0' # TA VERSION LOCALE (pour garder la compatibilité)
           extended: true
 
       - name: Build
-        run: hugo --minify
+        # On force la baseURL pour être sûr que les liens ne cassent pas
+        run: hugo --minify --baseURL "https://thlg057.github.io/mo5-blog/"
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4 # Update vers v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           cname: thlg057.github.io
-          full_commit_message: true 
+          full_commit_message: true
+          force_orphan: true # Nettoie la branche gh-pages à chaque fois pour éviter les vieux fichiers fantômes
