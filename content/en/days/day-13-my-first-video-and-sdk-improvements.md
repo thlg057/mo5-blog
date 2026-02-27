@@ -1,5 +1,5 @@
 ---
-date: 2026-01-09
+date: 2026-02-27
 description: "Day 13: My First Video and SDK Improvements"
 draft: false
 tags: ["mo5", "template", "c", "cmoc", "video", "sdk", "example"]
