@@ -3,8 +3,7 @@ date: 2026-01-16
 description: "Day 14: Sprite rendering optimizations"
 draft: false
 tags: ["mo5", "template", "c", "cmoc", "video", "sdk", "sprite"]
-title: "Day 14: Sprite rendering optimizations, disappointed to have
-  been fooled again"
+title: "Day 14: Sprite rendering optimizations"
 translationKey: day-14
 weight: 15
 ---
