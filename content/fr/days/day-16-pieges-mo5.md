@@ -5,7 +5,7 @@ tags: ["best practices", "SDK", "MO5", ]
 description: "Les pièges du MO5, ou comment perdre des soirées pour une variable."
 draft: false
 weight: 16
-translationKey: "day-15"
+translationKey: day-16
 ---
 
 Je pensais avoir compris le MO5.
@@ -50,7 +50,7 @@ Puis j'ai eu un doute...  Je teste sur un vrai MO5... Et là... Tout fonctionne 
 
 Aucune trace noire, transparence nickel, le sprite ne bave pas, exactement le comportement attendu.
 
-👉 le bug n'existait pas, c'était l'émulateur ! Encode l'émulateur... Et pourtant, je m'étais déjà fait avoir une fois avec DCMOTO...
+👉 le bug n'existait pas, c'était l'émulateur ! Encore l'émulateur... Et pourtant, je m'étais déjà fait avoir une fois avec DCMOTO...
 
 Depuis, j'évite DCMOTO, et j'utilise plutôt un émulateur en ligne (celui ci est pas mal: https://scemino.github.io/yame_wp/mo5.html), ou mieux, je teste dès que possible sur la vraie machine.
 
