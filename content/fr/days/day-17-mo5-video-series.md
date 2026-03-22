@@ -7,7 +7,6 @@ draft: false
 weight: 18
 translationKey: day-17
 ---
-# Série vidéo, créer un jeu MO5 en 2026
 
 Depuis que j'ai commencé à bidouiller sur MO5, j'ai pas mal appris, parfois à la dure, souvent en y passant mes soirées 😉
 
