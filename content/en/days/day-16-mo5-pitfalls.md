@@ -1,6 +1,6 @@
 ---
 date: 2026-03-22
-description: Day 16: MO5 pitfalls, or how to lose evenings over a variable
+description: "Day 16 MO5 pitfalls, or how to lose evenings over a variable"
 draft: false
 tags: ["best practices", "SDK", "MO5"]
 title: "Day 16: MO5 pitfalls, or how to lose evenings over a variable"
