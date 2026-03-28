@@ -125,7 +125,15 @@ Après toutes ces galères, j'ai fini par accumuler quelques règles simples.
 
 Pas des règles théoriques, mais des choses que j'ai vérifiées en pratique, parfois après plusieurs heures de debug.
 
-Par exemple, préférer `unsigned char` à `int`, parce que le 6809 est un processeur 8 bits et que les opérations 16 bits coûtent beaucoup plus cher, éviter les multiplications et les divisions, parce qu'elles sont très coûteuses en cycles, privilégier les incréments de pointeurs plutôt que les index de tableau, parce que ça évite des calculs inutiles, limiter les accès à la VRAM et regrouper les écritures, parce que chaque accès a un coût, utiliser des opérations bit à bit plutôt que des opérations arithmétiques quand c'est possible, faire attention aux underflows sur les unsigned char, déclarer toutes les variables en début de fonction et les initialiser ensuite, et surtout limiter le nombre de variables locales, en basculant certaines en variables globales statiques quand nécessaire.
+Par exemple, 
+- préférer `unsigned char` à `int`, parce que le 6809 est un processeur 8 bits et que les opérations 16 bits coûtent beaucoup plus cher, 
+- éviter les multiplications et les divisions, parce qu'elles sont très coûteuses en cycles, 
+- privilégier les incréments de pointeurs plutôt que les index de tableau, parce que ça évite des calculs inutiles, 
+- limiter les accès à la VRAM et regrouper les écritures, parce que chaque accès a un coût, 
+- utiliser des opérations bit à bit plutôt que des opérations arithmétiques quand c'est possible, 
+- faire attention aux underflows sur les unsigned char, 
+- déclarer toutes les variables en début de fonction et les initialiser ensuite, 
+- et surtout limiter le nombre de variables locales, en basculant certaines en variables globales statiques quand nécessaire.
 
 Ce sont des choses assez évidentes quand on connaît bien l'architecture.
 

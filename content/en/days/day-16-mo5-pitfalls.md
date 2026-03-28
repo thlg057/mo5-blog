@@ -127,7 +127,15 @@ After all these issues, I ended up gathering a few simple rules.
 
 Not theoretical rules, but things I verified in practice, sometimes after several hours of debugging.
 
-For example, prefer `unsigned char` to `int`, because the 6809 is an 8-bit processor and 16-bit operations are much more expensive, avoid multiplications and divisions, because they are very costly in cycles, prefer pointer increments over array indexing, because it avoids unnecessary computations, limit access to VRAM and group writes, because each access has a cost, use bitwise operations instead of arithmetic ones when possible, be careful with underflows on unsigned char, declare all variables at the beginning of the function and initialize them afterwards, and above all limit the number of local variables, moving some to static global variables when necessary.
+For example, 
+- prefer `unsigned char` to `int`, because the 6809 is an 8-bit processor and 16-bit operations are much more expensive, 
+- avoid multiplications and divisions, because they are very costly in cycles, 
+- prefer pointer increments over array indexing, because it avoids unnecessary computations, 
+- limit access to VRAM and group writes, because each access has a cost, 
+- use bitwise operations instead of arithmetic ones when possible, 
+- be careful with underflows on unsigned char, 
+- declare all variables at the beginning of the function and initialize them afterwards, 
+- and above all limit the number of local variables, moving some to static global variables when necessary.
 
 These are fairly obvious things when you know the architecture well.
 
