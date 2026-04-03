@@ -95,7 +95,7 @@ Le code complet du projet est disponible sur GitHub.
 
 Vous pouvez soit suivre la série étape par étape, soit aller directement voir le résultat final.
 
-👉 https://github.com/thlg057/mo5-space-invaders-tutorial-last-version
+👉 https://github.com/thlg057/mo5-space-invaders-tutorial
 
 Il y a une branche et un tag par étape, afin de suivre plus facilement la progression.
 
