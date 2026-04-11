@@ -9,7 +9,7 @@ pygmentsUseClasses = true
 googleAnalytics = "G-WRQSQ5Y81F"
 
 [pagination]
-  pagerSize = 20
+  pagerSize = 30
 
 [params]
   ShowAuthor = false

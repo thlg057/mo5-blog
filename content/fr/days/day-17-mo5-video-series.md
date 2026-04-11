@@ -1,7 +1,7 @@
 ---
 title: "Day 17 : Série vidéo, créer un jeu MO5 en 2026"
 date: 2026-03-22
-tags: ["example", "SDK", "MO5", "tutirial", "c"]
+tags: ["example", "SDK", "MO5", "tutorial", "c"]
 description: "Série vidéo, créer un jeu MO5 en 2026."
 draft: false
 weight: 18
