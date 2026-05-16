@@ -210,18 +210,22 @@ I ran many tests to refine the behavior:
 
 Everything was done in an **empirical** way, through testing and comparisons.
 
+I initially thought that automatically splitting the documentation into chunks was a good idea and would make my life easier. In the end, I decided to create the chunks myself instead of generating them automatically during document ingestion. 
+The documentation is now more consistent, and the coding agents receive a more coherent set of information.
+
 ---
 
 ## Valuable help from AIs
 
-I do not know much about neural models.  
-On that front:
+I didn’t know much about neural models, and AI helped me understand quite a few concepts. I’m definitely not claiming to be an expert, but this experience allowed me to discover neural models and vector databases, which I knew nothing about before.
 
-- **Gemini** helped me a lot
-  - deploying the Python service
-  - choosing the `multilingual-e5-small` model
+I find it fascinating to represent text as numbers while still preserving the meaning. At first, I naively wanted to use keyword-based search, but it would have been completely inefficient and my RAG would have been unusable.
 
-Honestly, without this help, it would have taken much longer (and probably been more painful 😅).
+Discovering vectorization, this kind of magical power, was really eye-opening. I recommend taking a look at it, even just for the intellectual curiosity 😅.
+
+Gemini helped me a lot when choosing the multilingual-e5-small model. I wanted a lightweight model that could run on my VPS, support multiple languages, and be focused on semantic search.
+
+Gemini recommended multilingual-e5-small, and I don’t regret it at all, it was the right choice for my use case. Thanks Gemini 😅.
 
 ---
 

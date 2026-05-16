@@ -85,7 +85,8 @@ Côté serveur, j’ai préparé un répertoire de déploiement avec :
 - un `docker-compose.yml`
 - la configuration Caddy
 
-Copie du tout sur le VPS Hostinger, installation…  **aucun souci particulier**, c’est plutôt simple et bien foutu.
+Copie du tout sur le VPS Hostinger, installation... **aucun souci particulier**, c'est plutôt simple et bien foutu. 
+Comme je suis un peu fénéant, j'ai rapidement créé un script powershell pour m'aider dans l'automatisation du déploiement. Je n'ai pas souhaité de faire directement depuis des actions Github, je ne voulais pas mettre mes credentials VPS dans Github et j'avais envie de pouvoir choisir les composants / le contenu que je voulais déployer.
 
 ---
 
@@ -123,14 +124,14 @@ Après avoir ajouté pas mal de logs, le verdict est tombé : **la base n’éta
 
 ### Analyse
 
-Charger un modèle de deep learning (même “petit” comme E5) est une opération lourde. Le faire à chaque requête est totalement inefficace.
+Charger un modèle de deep learning (même “petit” comme E5) est une opération lourde. Le faire à chaque requête est totalement inefficace (et idiot).
 
-Il fallait une architecture où le modèle reste **“chaud”**, chargé une seule fois en mémoire.
+Il fallait une architecture où le modèle reste **“chaud”**, chargé une seule fois en mémoire, donc chargé depuis un microservice.
 
-### Ce qui a été mis en place
+### Ce que j'ai mis en place
 
 - **Micro-service dédié**  
-  Une API Python indépendante, basée sur FastAPI, dans son propre conteneur Docker.
+  Une API Python indépendante, basée sur FastAPI, avec son propre conteneur Docker.
 
 - **Chargement unique du modèle**  
   Le modèle `multilingual-e5-small` est chargé **une seule fois** au démarrage du service.
@@ -172,21 +173,21 @@ Le modèle d’origine n’était pas assez performant sur :
 Une fois découpé en *chunks*, le moteur :
 - voyait une suite d’instructions
 - mais oubliait **de quel document et de quelle section** elles provenaient
+D'un autre côté, c'est moi qui lui avait dit de découper le texte en chunks de 800 caractères max avec un overlap de 150 caractères...
 
 Par exemple, il ne savait plus si on parlait :
 - du mode texte
 - ou du mode graphique
 
-### Ce qui a été mis en place
+### Ce que j'ai changé
 
 - **Changement de modèle**  
   Passage à `intfloat/multilingual-e5-small` → le score de base est passé de **0.61 à 0.86**
 
 - **Enrichissement sémantique**  
-  Modification du code C# pour injecter :
+  Modification du code C# pour injecter systématiquement dans chaque chunk:
   - le titre du document
   - le titre de la section  
-  dans chaque chunk envoyé à l’IA
 
 - **Nettoyage du Markdown**  
   Suppression des caractères `#`, `**`, etc. pour ne conserver que le texte “pur” lors de l’indexation
@@ -209,18 +210,23 @@ J’ai fait pas mal de tests pour affiner le comportement :
 
 Tout a été fait de manière **empirique**, à coups de tests et de comparaisons.
 
+Je trouvais que le découpage automatique en chunk était une bonne idée et que ça allait me faciliter la vie. 
+Finalement, j'ai choisi de créer moi même les chunks, de ne plus les générer automatiquement lors de l'ingestion des documents. 
+La documentation est à présent plus cohérente, et un ensemble cohérent est retourné aux coding agents.
+
 ---
 
 ## Aide précieuse des IA
 
-Je ne connais pas grand-chose aux modèles neuronaux.  
-Sur ce point :
+Je ne connaissais pas grand-chose aux modèles neuronaux, et L'IA m'a aidé à appréhender pas mal de concepts. Je ne prétends pas du tout être un spécialiste, mais cette expérience m'a permis de m'initier aux modèles neuronaux et aux bases de données vectorielles que je ne connaissais pas du tout. 
 
-- **Gemini** m’a beaucoup aidé
-  - pour le déploiement du service Python
-  - pour le choix du modèle `multilingual-e5-small`
+Je trouve fascinant de pouvoir représenter du texte sous forme de nombres en préservant le sens. Naïvement, je voulais partir sur une recherche par mot clé, mais ça aurait été complètement inefficace et mon RAG aurait été inutilisable. 
 
-Franchement, sans cette aide, ça aurait été beaucoup plus long (et probablement plus douloureux 😅).
+La découverte de la vectorisation, de cette puissance magique, a vraiment été révélatrice. Je vous conseille d'y jeter un oeil, ne serait-ce que pour l'intérêt intellectuel 😅.
+
+**Gemini** m'a beaucoup aidé sur le choix du modèle `multilingual-e5-small`. Je voulais un modèle léger pour tourner sur mon VPS, multilangue et plutôt orienté recherche sémantique. 
+
+Gemini m'a conseillé `multilingual-e5-small` et je ne le regrette pas, c'était le bon choix pour mon usage. Merci Gemini 😅.
 
 ---
 
