@@ -86,7 +86,6 @@ Côté serveur, j’ai préparé un répertoire de déploiement avec :
 - la configuration Caddy
 
 Copie du tout sur le VPS Hostinger, installation... **aucun souci particulier**, c'est plutôt simple et bien foutu. 
-Comme je suis un peu fénéant, j'ai rapidement créé un script powershell pour m'aider dans l'automatisation du déploiement. Je n'ai pas souhaité de faire directement depuis des actions Github, je ne voulais pas mettre mes credentials VPS dans Github et j'avais envie de pouvoir choisir les composants / le contenu que je voulais déployer.
 
 ---
 
